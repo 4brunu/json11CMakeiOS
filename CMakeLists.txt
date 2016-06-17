@@ -27,5 +27,4 @@ set(CMAKE_XCODE_ATTRIBUTE_CODE_SIGNING_REQUIRED "NO")
 
 # Add projects.
 # Change here the sub directory
-# add_subdirectory(deps/json11_without_tests)
 add_subdirectory(deps/json11)
