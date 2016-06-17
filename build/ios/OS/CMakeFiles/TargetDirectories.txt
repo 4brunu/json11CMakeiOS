@@ -1,0 +1,8 @@
+/Users/bruno.coelho/Developer/json11CMakeiOS/build/ios/OS/CMakeFiles/install.dir
+/Users/bruno.coelho/Developer/json11CMakeiOS/build/ios/OS/CMakeFiles/ALL_BUILD.dir
+/Users/bruno.coelho/Developer/json11CMakeiOS/build/ios/OS/CMakeFiles/ZERO_CHECK.dir
+/Users/bruno.coelho/Developer/json11CMakeiOS/build/ios/OS/deps/json11/CMakeFiles/json11_test.dir
+/Users/bruno.coelho/Developer/json11CMakeiOS/build/ios/OS/deps/json11/CMakeFiles/install.dir
+/Users/bruno.coelho/Developer/json11CMakeiOS/build/ios/OS/deps/json11/CMakeFiles/json11.dir
+/Users/bruno.coelho/Developer/json11CMakeiOS/build/ios/OS/deps/json11/CMakeFiles/ALL_BUILD.dir
+/Users/bruno.coelho/Developer/json11CMakeiOS/build/ios/OS/deps/json11/CMakeFiles/ZERO_CHECK.dir
