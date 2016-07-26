@@ -1,6 +1,6 @@
-set(CMAKE_HOST_SYSTEM "Darwin-15.5.0")
+set(CMAKE_HOST_SYSTEM "Darwin-15.6.0")
 set(CMAKE_HOST_SYSTEM_NAME "Darwin")
-set(CMAKE_HOST_SYSTEM_VERSION "15.5.0")
+set(CMAKE_HOST_SYSTEM_VERSION "15.6.0")
 set(CMAKE_HOST_SYSTEM_PROCESSOR "x86_64")
 
 include("/Users/bruno.coelho/Developer/json11CMakeiOS/cmake/Toolchains/iOS.cmake")

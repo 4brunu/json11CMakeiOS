@@ -7,246 +7,207 @@
 	objects = {
 
 /* Begin PBXAggregateTarget section */
-		784C34D8B3764782961665B9 /* ALL_BUILD */ = {
+		4FFFD7FA3D6F4857A4CD46CE /* ZERO_CHECK */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 59E72BB04B7F40D3B1B5A59C /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildConfigurationList = EE5F6767E21A4C25A79BD68A /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
 			buildPhases = (
-				8B9C2450B395472EBD43012F /* CMake Rules */,
-			);
-			dependencies = (
-				105C9BF1498E4AA4A2DFD79F /* PBXTargetDependency */,
-				02F79298C2BD4AE58614D54D /* PBXTargetDependency */,
-				04B889945A5646768DDE9084 /* PBXTargetDependency */,
-			);
-			name = ALL_BUILD;
-			productName = ALL_BUILD;
-		};
-		96833FB6A6AF44969F50A88A /* install */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = 1B7FD1B0A477438F85A2FE14 /* Build configuration list for PBXAggregateTarget "install" */;
-			buildPhases = (
-				24C1D8249E864932895EAC82 /* CMake PostBuild Rules */,
-			);
-			dependencies = (
-				C421064C44E7483AB9CCAE39 /* PBXTargetDependency */,
-			);
-			name = install;
-			productName = install;
-		};
-		F4D8790B2E8C431793C78C96 /* ZERO_CHECK */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = 9DCF17492B8C4C7895365F6C /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
-			buildPhases = (
-				9E8C9031610C4D558D48ED55 /* CMake Rules */,
+				ADA09256770B43639F42C093 /* CMake Rules */,
 			);
 			dependencies = (
 			);
 			name = ZERO_CHECK;
 			productName = ZERO_CHECK;
 		};
+		659B2EBBF334427DB546F0A7 /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = A81E63B02DE54A46B0CB081D /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				E112F3CEBAF0472881579472 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				889982AFC0BD4521AA3A2F09 /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+		87187DD2C7DC44EE85284BB9 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = E983B8F8E501457FBCA0F18E /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				5B6BAB0C28AB4DE5946A6112 /* CMake Rules */,
+			);
+			dependencies = (
+				0D2D0CA6304246468C496F0E /* PBXTargetDependency */,
+				14E08AF2F51A42DB8ACE181B /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		707D3F3D89DD4B9EBED9876B /* /Users/bruno.coelho/Developer/json11CMakeiOS/deps/json11/json11.cpp */ = {isa = PBXBuildFile; fileRef = 51D2786B719749118CA8B13A /* /Users/bruno.coelho/Developer/json11CMakeiOS/deps/json11/json11.cpp */; settings = {COMPILER_FLAGS = ""; }; };
-		9108C5B347314ECC8D53365F /* /Users/bruno.coelho/Developer/json11CMakeiOS/deps/json11/test.cpp */ = {isa = PBXBuildFile; fileRef = 055358810B7B4258AFFD3C2D /* /Users/bruno.coelho/Developer/json11CMakeiOS/deps/json11/test.cpp */; settings = {COMPILER_FLAGS = ""; }; };
-		CD0D432D99354F678BA3BBF3 /* /Users/bruno.coelho/Developer/json11CMakeiOS/deps/json11/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 2D69CA4A86434B808B264BE8 /* /Users/bruno.coelho/Developer/json11CMakeiOS/deps/json11/CMakeLists.txt */; settings = {COMPILER_FLAGS = ""; }; };
-		F67A643065CC4E379892BBF6 /* /Users/bruno.coelho/Developer/json11CMakeiOS/deps/json11/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 034769C22FF64D8E89CD5EEA /* /Users/bruno.coelho/Developer/json11CMakeiOS/deps/json11/CMakeLists.txt */; settings = {COMPILER_FLAGS = ""; }; };
+		850DF8E00D224F76B92124E2 /* /Users/bruno.coelho/Developer/json11CMakeiOS/deps/json11/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 84BCE1C95A4F489A9B12DACB /* /Users/bruno.coelho/Developer/json11CMakeiOS/deps/json11/CMakeLists.txt */; settings = {COMPILER_FLAGS = ""; }; };
+		C5A34892A7D54432B5C091F2 /* /Users/bruno.coelho/Developer/json11CMakeiOS/deps/json11/json11.cpp */ = {isa = PBXBuildFile; fileRef = 525AFA27DF464592A55AE0EF /* /Users/bruno.coelho/Developer/json11CMakeiOS/deps/json11/json11.cpp */; settings = {COMPILER_FLAGS = ""; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildStyle section */
-		557FFE857D0643DB99CBB147 /* Release */ = {
+		19CE633074A04854A71B0653 = {
 			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = Release;
 		};
-		57A72279D1414904BF8AF0FA /* MinSizeRel */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = MinSizeRel;
-		};
-		A6D28105B01445649538BD9D /* Debug */ = {
+		9140DAFFED1F4232A5F6730E /* Debug */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = Debug;
 		};
-		AA6F453322FC47E8ABAAE46B /* RelWithDebInfo */ = {
+		99C19135E6CE4B10B65879F8 /* RelWithDebInfo */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = RelWithDebInfo;
 		};
-		E1DE6E982A474A6EAAFD425E = {
+		DC80C003859C4D6FAC95D836 /* MinSizeRel */ = {
 			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		ECE1980D2E984BC0973DADC3 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
 		};
 /* End PBXBuildStyle section */
 
 /* Begin PBXContainerItemProxy section */
-		1E34BF93DDE7466983368A43 /* PBXContainerItemProxy */ = {
+		19228C5D84764960B20B0542 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 6B97892AF61C4B4E8A6F8984 /* Project object */;
+			containerPortal = BD4DF840227E413597153EFD /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 315ADAE17C8D463D9EE0634A;
-			remoteInfo = json11;
-		};
-		7C036BDFAE03418DBB8FEBDA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6B97892AF61C4B4E8A6F8984 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 315ADAE17C8D463D9EE0634A;
-			remoteInfo = json11;
-		};
-		AA132A034B88454FB36DA2B8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6B97892AF61C4B4E8A6F8984 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 784C34D8B3764782961665B9;
+			remoteGlobalIDString = 87187DD2C7DC44EE85284BB9;
 			remoteInfo = ALL_BUILD;
 		};
-		D73FE0C812B544DD9E59FE04 /* PBXContainerItemProxy */ = {
+		9BA60413F1EF4B0DA0F266DE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 6B97892AF61C4B4E8A6F8984 /* Project object */;
+			containerPortal = BD4DF840227E413597153EFD /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 9EC11283D2C740EB9CC49C39;
-			remoteInfo = json11_test;
+			remoteGlobalIDString = 44EF1C839A3344EE841A8307;
+			remoteInfo = json11;
 		};
-		DA8A029D7A5344249087DD62 /* PBXContainerItemProxy */ = {
+		C11EAFF93D0C4374A6A0FA87 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 6B97892AF61C4B4E8A6F8984 /* Project object */;
+			containerPortal = BD4DF840227E413597153EFD /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F4D8790B2E8C431793C78C96;
+			remoteGlobalIDString = 4FFFD7FA3D6F4857A4CD46CE;
 			remoteInfo = ZERO_CHECK;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		034769C22FF64D8E89CD5EEA /* /Users/bruno.coelho/Developer/json11CMakeiOS/deps/json11/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = deps/json11/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		055358810B7B4258AFFD3C2D /* /Users/bruno.coelho/Developer/json11CMakeiOS/deps/json11/test.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test.cpp; path = deps/json11/test.cpp; sourceTree = SOURCE_ROOT; };
-		10C169A640CF4634BF253AA0 /* /Users/bruno.coelho/Developer/json11CMakeiOS/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		2D69CA4A86434B808B264BE8 /* /Users/bruno.coelho/Developer/json11CMakeiOS/deps/json11/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = deps/json11/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		51D2786B719749118CA8B13A /* /Users/bruno.coelho/Developer/json11CMakeiOS/deps/json11/json11.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = json11.cpp; path = deps/json11/json11.cpp; sourceTree = SOURCE_ROOT; };
-		6EE43F45BC204481AE48156F /* json11_test */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = json11_test; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
-		CF2CCAA46D454A2DB4C6F0E6 /* /Users/bruno.coelho/Developer/json11CMakeiOS/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		F8592855E9E743B487DDA001 /* json11 */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libjson11.a; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+		525AFA27DF464592A55AE0EF /* /Users/bruno.coelho/Developer/json11CMakeiOS/deps/json11/json11.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = json11.cpp; path = deps/json11/json11.cpp; sourceTree = SOURCE_ROOT; };
+		7665B5D411C4484EB3AF8C25 /* /Users/bruno.coelho/Developer/json11CMakeiOS/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		84BCE1C95A4F489A9B12DACB /* /Users/bruno.coelho/Developer/json11CMakeiOS/deps/json11/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = deps/json11/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		96E2342F41ED4F0FB70B5635 /* /Users/bruno.coelho/Developer/json11CMakeiOS/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		9C657129D82546368726A103 /* json11 */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libjson11.a; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
-		1664A16990FD4898866B0A89 /* json11 */ = {
-			isa = PBXGroup;
-			children = (
-				A1F30BE9F9294D1B999766F5 /* Source Files */,
-				2D69CA4A86434B808B264BE8 /* /Users/bruno.coelho/Developer/json11CMakeiOS/deps/json11/CMakeLists.txt */,
-			);
-			name = json11;
-			sourceTree = "<group>";
-		};
-		3660C5E06ABE47E6B683D4EC /* CMake Rules */ = {
+		1442C436B2DE400CB947A82C /* CMake Rules */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = "CMake Rules";
 			sourceTree = "<group>";
 		};
-		4AF378307A69486C8882DC2C = {
+		1C2F1B11DBEA4518A4FEB2B1 /* ALL_BUILD */ = {
 			isa = PBXGroup;
 			children = (
-				E6C8D6640B39417F8BA572E9 /* Sources */,
-				F57B8E15F56D47129FE7FFCF /* Resources */,
-				C89E92B77F7F4A3C8243D44C /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		549E0EA463A34461BADAE303 /* ZERO_CHECK */ = {
-			isa = PBXGroup;
-			children = (
-				CFE314663ADE42A8A69A63DB /* CMake Rules */,
-				10C169A640CF4634BF253AA0 /* /Users/bruno.coelho/Developer/json11CMakeiOS/CMakeLists.txt */,
-			);
-			name = ZERO_CHECK;
-			sourceTree = "<group>";
-		};
-		7F0C7AC092AE451CA43476A8 /* Source Files */ = {
-			isa = PBXGroup;
-			children = (
-				055358810B7B4258AFFD3C2D /* /Users/bruno.coelho/Developer/json11CMakeiOS/deps/json11/test.cpp */,
-			);
-			name = "Source Files";
-			sourceTree = "<group>";
-		};
-		A1F30BE9F9294D1B999766F5 /* Source Files */ = {
-			isa = PBXGroup;
-			children = (
-				51D2786B719749118CA8B13A /* /Users/bruno.coelho/Developer/json11CMakeiOS/deps/json11/json11.cpp */,
-			);
-			name = "Source Files";
-			sourceTree = "<group>";
-		};
-		A612733CDE5A4066A37F5C3E /* json11_test */ = {
-			isa = PBXGroup;
-			children = (
-				7F0C7AC092AE451CA43476A8 /* Source Files */,
-				034769C22FF64D8E89CD5EEA /* /Users/bruno.coelho/Developer/json11CMakeiOS/deps/json11/CMakeLists.txt */,
-			);
-			name = json11_test;
-			sourceTree = "<group>";
-		};
-		AF8A4100B05C4030B28E9412 /* ALL_BUILD */ = {
-			isa = PBXGroup;
-			children = (
-				3660C5E06ABE47E6B683D4EC /* CMake Rules */,
-				CF2CCAA46D454A2DB4C6F0E6 /* /Users/bruno.coelho/Developer/json11CMakeiOS/CMakeLists.txt */,
+				DDD398CEC0444BC5BC2AADEB /* CMake Rules */,
+				96E2342F41ED4F0FB70B5635 /* /Users/bruno.coelho/Developer/json11CMakeiOS/CMakeLists.txt */,
 			);
 			name = ALL_BUILD;
 			sourceTree = "<group>";
 		};
-		C89E92B77F7F4A3C8243D44C /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				F8592855E9E743B487DDA001 /* json11 */,
-				6EE43F45BC204481AE48156F /* json11_test */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		CFE314663ADE42A8A69A63DB /* CMake Rules */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = "CMake Rules";
-			sourceTree = "<group>";
-		};
-		E6C8D6640B39417F8BA572E9 /* Sources */ = {
-			isa = PBXGroup;
-			children = (
-				AF8A4100B05C4030B28E9412 /* ALL_BUILD */,
-				549E0EA463A34461BADAE303 /* ZERO_CHECK */,
-				A612733CDE5A4066A37F5C3E /* json11_test */,
-				1664A16990FD4898866B0A89 /* json11 */,
-			);
-			name = Sources;
-			sourceTree = "<group>";
-		};
-		F57B8E15F56D47129FE7FFCF /* Resources */ = {
+		360F8A789EA84A86AC40914F /* Resources */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Resources;
 			sourceTree = "<group>";
 		};
+		62E841CB7BBC4794B10C9F73 /* json11 */ = {
+			isa = PBXGroup;
+			children = (
+				F8B31532579442428E80BA2F /* Source Files */,
+				84BCE1C95A4F489A9B12DACB /* /Users/bruno.coelho/Developer/json11CMakeiOS/deps/json11/CMakeLists.txt */,
+			);
+			name = json11;
+			sourceTree = "<group>";
+		};
+		788A9BF08A4F4542A0880DF7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C657129D82546368726A103 /* json11 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEED46A4CEB84EDA9BEFC569 = {
+			isa = PBXGroup;
+			children = (
+				D4BF68B5FAB745199CF85CE5 /* Sources */,
+				360F8A789EA84A86AC40914F /* Resources */,
+				788A9BF08A4F4542A0880DF7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D4BF68B5FAB745199CF85CE5 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				1C2F1B11DBEA4518A4FEB2B1 /* ALL_BUILD */,
+				F699A8BE35824AD6A181A1D7 /* ZERO_CHECK */,
+				62E841CB7BBC4794B10C9F73 /* json11 */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		DDD398CEC0444BC5BC2AADEB /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		F699A8BE35824AD6A181A1D7 /* ZERO_CHECK */ = {
+			isa = PBXGroup;
+			children = (
+				1442C436B2DE400CB947A82C /* CMake Rules */,
+				7665B5D411C4484EB3AF8C25 /* /Users/bruno.coelho/Developer/json11CMakeiOS/CMakeLists.txt */,
+			);
+			name = ZERO_CHECK;
+			sourceTree = "<group>";
+		};
+		F8B31532579442428E80BA2F /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				525AFA27DF464592A55AE0EF /* /Users/bruno.coelho/Developer/json11CMakeiOS/deps/json11/json11.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		315ADAE17C8D463D9EE0634A /* json11 */ = {
+		44EF1C839A3344EE841A8307 /* json11 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 370298D42C8A466190CA0CA3 /* Build configuration list for PBXNativeTarget "json11" */;
+			buildConfigurationList = E32CF596ADAB48609A4D2907 /* Build configuration list for PBXNativeTarget "json11" */;
 			buildPhases = (
-				139ADB3B551742F5B2DED4F1 /* Sources */,
+				E7BC351BF2A24642B9D2B28A /* Sources */,
 			);
 			buildRules = (
 			);
@@ -254,71 +215,58 @@
 			);
 			name = json11;
 			productName = json11;
-			productReference = F8592855E9E743B487DDA001 /* json11 */;
+			productReference = 9C657129D82546368726A103 /* json11 */;
 			productType = "com.apple.product-type.library.static";
-		};
-		9EC11283D2C740EB9CC49C39 /* json11_test */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 529D0F10F54447D0807287E4 /* Build configuration list for PBXNativeTarget "json11_test" */;
-			buildPhases = (
-				0900235A69B74CB099B90F17 /* Sources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				8D7AC2C5B31B47B1A77B3054 /* PBXTargetDependency */,
-			);
-			name = json11_test;
-			productName = json11_test;
-			productReference = 6EE43F45BC204481AE48156F /* json11_test */;
-			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		6B97892AF61C4B4E8A6F8984 /* Project object */ = {
+		BD4DF840227E413597153EFD /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 0730;
 			};
-			buildConfigurationList = 14AD2426A62C45939B423EBB /* Build configuration list for PBXProject "example_all" */;
+			buildConfigurationList = 0CB31504ACE94C3C88D0E460 /* Build configuration list for PBXProject "example_all" */;
 			buildSettings = {
 			};
 			buildStyles = (
-				A6D28105B01445649538BD9D /* Debug */,
-				557FFE857D0643DB99CBB147 /* Release */,
-				57A72279D1414904BF8AF0FA /* MinSizeRel */,
-				AA6F453322FC47E8ABAAE46B /* RelWithDebInfo */,
+				9140DAFFED1F4232A5F6730E /* Debug */,
+				ECE1980D2E984BC0973DADC3 /* Release */,
+				DC80C003859C4D6FAC95D836 /* MinSizeRel */,
+				99C19135E6CE4B10B65879F8 /* RelWithDebInfo */,
 			);
 			compatibilityVersion = "Xcode 3.2";
 			hasScannedForEncodings = 0;
-			mainGroup = 4AF378307A69486C8882DC2C;
+			mainGroup = CEED46A4CEB84EDA9BEFC569;
 			projectDirPath = ../../../;
 			projectRoot = "";
 			targets = (
-				784C34D8B3764782961665B9 /* ALL_BUILD */,
-				F4D8790B2E8C431793C78C96 /* ZERO_CHECK */,
-				96833FB6A6AF44969F50A88A /* install */,
-				315ADAE17C8D463D9EE0634A /* json11 */,
-				9EC11283D2C740EB9CC49C39 /* json11_test */,
+				87187DD2C7DC44EE85284BB9 /* ALL_BUILD */,
+				4FFFD7FA3D6F4857A4CD46CE /* ZERO_CHECK */,
+				659B2EBBF334427DB546F0A7 /* install */,
+				44EF1C839A3344EE841A8307 /* json11 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		24C1D8249E864932895EAC82 /* CMake PostBuild Rules */ = {
+		1880821022E241D3AEEEB882 = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			name = "CMake PostBuild Rules";
+			inputPaths = (
+			);
+			outputPaths = (
+			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "make -C /Users/bruno.coelho/Developer/json11CMakeiOS/build/ios/OS -f /Users/bruno.coelho/Developer/json11CMakeiOS/build/ios/OS/CMakeScripts/install_postBuildPhase.make$CONFIGURATION all";
+			shellScript = "# shell script goes here
+exit 0";
 			showEnvVarsInLog = 0;
 		};
-		8B9C2450B395472EBD43012F /* CMake Rules */ = {
+		5B6BAB0C28AB4DE5946A6112 /* CMake Rules */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -329,7 +277,7 @@
 			shellScript = "make -C /Users/bruno.coelho/Developer/json11CMakeiOS/build/ios/OS -f /Users/bruno.coelho/Developer/json11CMakeiOS/build/ios/OS/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
 			showEnvVarsInLog = 0;
 		};
-		8FE9D7437D4B49DDBADAC46E = {
+		9E6844D42855406CAB6FCAED = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -344,7 +292,7 @@
 exit 0";
 			showEnvVarsInLog = 0;
 		};
-		946D1D98339C45C2AAEEFE11 = {
+		A06D5CA10FC0465C87E5B7D4 = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -359,7 +307,7 @@ exit 0";
 exit 0";
 			showEnvVarsInLog = 0;
 		};
-		9E8C9031610C4D558D48ED55 /* CMake Rules */ = {
+		ADA09256770B43639F42C093 /* CMake Rules */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -370,72 +318,70 @@ exit 0";
 			shellScript = "make -C /Users/bruno.coelho/Developer/json11CMakeiOS/build/ios/OS -f /Users/bruno.coelho/Developer/json11CMakeiOS/build/ios/OS/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
 			showEnvVarsInLog = 0;
 		};
-		E5C9ACCBB436430F802B1679 = {
+		E112F3CEBAF0472881579472 /* CMake PostBuild Rules */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
+			name = "CMake PostBuild Rules";
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# shell script goes here
-exit 0";
+			shellScript = "make -C /Users/bruno.coelho/Developer/json11CMakeiOS/build/ios/OS -f /Users/bruno.coelho/Developer/json11CMakeiOS/build/ios/OS/CMakeScripts/install_postBuildPhase.make$CONFIGURATION all";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0900235A69B74CB099B90F17 /* Sources */ = {
+		E7BC351BF2A24642B9D2B28A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9108C5B347314ECC8D53365F /* /Users/bruno.coelho/Developer/json11CMakeiOS/deps/json11/test.cpp */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		139ADB3B551742F5B2DED4F1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				707D3F3D89DD4B9EBED9876B /* /Users/bruno.coelho/Developer/json11CMakeiOS/deps/json11/json11.cpp */,
+				C5A34892A7D54432B5C091F2 /* /Users/bruno.coelho/Developer/json11CMakeiOS/deps/json11/json11.cpp */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		02F79298C2BD4AE58614D54D /* PBXTargetDependency */ = {
+		0D2D0CA6304246468C496F0E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9EC11283D2C740EB9CC49C39 /* json11_test */;
-			targetProxy = D73FE0C812B544DD9E59FE04 /* PBXContainerItemProxy */;
+			target = 44EF1C839A3344EE841A8307 /* json11 */;
+			targetProxy = 9BA60413F1EF4B0DA0F266DE /* PBXContainerItemProxy */;
 		};
-		04B889945A5646768DDE9084 /* PBXTargetDependency */ = {
+		14E08AF2F51A42DB8ACE181B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 315ADAE17C8D463D9EE0634A /* json11 */;
-			targetProxy = 7C036BDFAE03418DBB8FEBDA /* PBXContainerItemProxy */;
+			target = 4FFFD7FA3D6F4857A4CD46CE /* ZERO_CHECK */;
+			targetProxy = C11EAFF93D0C4374A6A0FA87 /* PBXContainerItemProxy */;
 		};
-		105C9BF1498E4AA4A2DFD79F /* PBXTargetDependency */ = {
+		889982AFC0BD4521AA3A2F09 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F4D8790B2E8C431793C78C96 /* ZERO_CHECK */;
-			targetProxy = DA8A029D7A5344249087DD62 /* PBXContainerItemProxy */;
-		};
-		8D7AC2C5B31B47B1A77B3054 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 315ADAE17C8D463D9EE0634A /* json11 */;
-			targetProxy = 1E34BF93DDE7466983368A43 /* PBXContainerItemProxy */;
-		};
-		C421064C44E7483AB9CCAE39 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 784C34D8B3764782961665B9 /* ALL_BUILD */;
-			targetProxy = AA132A034B88454FB36DA2B8 /* PBXContainerItemProxy */;
+			target = 87187DD2C7DC44EE85284BB9 /* ALL_BUILD */;
+			targetProxy = 19228C5D84764960B20B0542 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		10FD9F8B8DF94DFBBBA69F7A /* RelWithDebInfo */ = {
+		119C7C491604469F9B0F2848 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/bruno.coelho/Developer/json11CMakeiOS/build/ios/OS;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = MinSizeRel;
+		};
+		1512AF1254D544BE8E35D7E2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -453,9 +399,91 @@ exit 0";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
 			};
+			name = Release;
+		};
+		23316C72A5C149E98B6461D0 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/bruno.coelho/Developer/json11CMakeiOS/build/ios/OS;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = MinSizeRel;
+		};
+		33DB73968DB1413ABBDD7637 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "armv7 armv7s arm64";
+				CODE_SIGNING_REQUIRED = NO;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk;
+				SYMROOT = /Users/bruno.coelho/Developer/json11CMakeiOS/build/ios/OS/build;
+			};
+			name = MinSizeRel;
+		};
+		3F2280B573CA46C589D7BF8A /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "armv7 armv7s arm64";
+				CODE_SIGNING_REQUIRED = NO;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk;
+				SYMROOT = /Users/bruno.coelho/Developer/json11CMakeiOS/build/ios/OS/build;
+			};
 			name = RelWithDebInfo;
 		};
-		1C4AA651BECA4CC1A3617AD8 /* Release */ = {
+		434C5A15DACE4B259ED5DD94 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (armv7, armv7s, arm64, );
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/bruno.coelho/Developer/json11CMakeiOS/build/ios/OS;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = MinSizeRel;
+		};
+		488C42250A154F358ADEE936 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "armv7 armv7s arm64";
+				CODE_SIGNING_REQUIRED = NO;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk;
+				SYMROOT = /Users/bruno.coelho/Developer/json11CMakeiOS/build/ios/OS/build;
+			};
+			name = Debug;
+		};
+		4B7C1560642C46068853BFF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "armv7 armv7s arm64";
+				CODE_SIGNING_REQUIRED = NO;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk;
+				SYMROOT = /Users/bruno.coelho/Developer/json11CMakeiOS/build/ios/OS/build;
+			};
+			name = Release;
+		};
+		5EE1AA3BFA9A44AD8FAE8D48 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = (armv7, armv7s, arm64, );
@@ -483,85 +511,7 @@ exit 0";
 			};
 			name = Release;
 		};
-		254449E7AC1C4A488452B01C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = (armv7, armv7s, arm64, );
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = install;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/bruno.coelho/Developer/json11CMakeiOS/build/ios/OS;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
-			};
-			name = Release;
-		};
-		2943A613DCBD481BA068D636 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = (armv7, armv7s, arm64, );
-				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = /Users/bruno.coelho/Developer/json11CMakeiOS/bin/ios/Debug/OS;
-				EXECUTABLE_PREFIX = "";
-				EXECUTABLE_SUFFIX = "";
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/Users/bruno.coelho/Developer/json11CMakeiOS/deps/json11, );
-				INSTALL_PATH = "";
-				LIBRARY_SEARCH_PATHS = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_CPLUSPLUSFLAGS = " -fvisibility=hidden -fvisibility-inlines-hidden -fobjc-arc -std=c++11 -stdlib=libc++ -Wall '-std=c++11'  ";
-				OTHER_LDFLAGS = " -Wl,-headerpad_max_install_names  /Users/bruno.coelho/Developer/json11CMakeiOS/bin/ios/Debug/OS/libjson11.a";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = json11_test;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/bruno.coelho/Developer/json11CMakeiOS/build/ios/OS/deps/json11;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
-			};
-			name = Debug;
-		};
-		4288289D115440AE9CEA7546 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = (armv7, armv7s, arm64, );
-				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = /Users/bruno.coelho/Developer/json11CMakeiOS/bin/ios/Debug/OS;
-				EXECUTABLE_PREFIX = lib;
-				EXECUTABLE_SUFFIX = .a;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/Users/bruno.coelho/Developer/json11CMakeiOS/deps/json11, );
-				INSTALL_PATH = "";
-				LIBRARY_STYLE = STATIC;
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_CPLUSPLUSFLAGS = " -fvisibility=hidden -fvisibility-inlines-hidden -fobjc-arc -std=c++11 -stdlib=libc++ -Wall '-std=c++11' -fno-rtti -fno-exceptions -Wall -Wextra -Werror  ";
-				OTHER_LIBTOOLFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = json11;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/bruno.coelho/Developer/json11CMakeiOS/build/ios/OS/deps/json11;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
-			};
-			name = Debug;
-		};
-		432F9FC41B554B57BC0643F6 /* RelWithDebInfo */ = {
+		6AFCF34A75CC4461A54D4890 /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = (armv7, armv7s, arm64, );
@@ -589,215 +539,7 @@ exit 0";
 			};
 			name = RelWithDebInfo;
 		};
-		4D80B20BFAF0450D9EAC4482 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = (armv7, armv7s, arm64, );
-				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = /Users/bruno.coelho/Developer/json11CMakeiOS/bin/ios/MinSizeRel;
-				EXECUTABLE_PREFIX = "";
-				EXECUTABLE_SUFFIX = "";
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/Users/bruno.coelho/Developer/json11CMakeiOS/deps/json11, );
-				INSTALL_PATH = "";
-				LIBRARY_SEARCH_PATHS = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_CPLUSPLUSFLAGS = " -fvisibility=hidden -fvisibility-inlines-hidden -fobjc-arc -std=c++11 -stdlib=libc++ -Wall '-std=c++11'  ";
-				OTHER_LDFLAGS = " -Wl,-headerpad_max_install_names  /Users/bruno.coelho/Developer/json11CMakeiOS/bin/ios/MinSizeRel/libjson11.a";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = json11_test;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/bruno.coelho/Developer/json11CMakeiOS/build/ios/OS/deps/json11;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
-			};
-			name = MinSizeRel;
-		};
-		4FD789B493074F678739162A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/bruno.coelho/Developer/json11CMakeiOS/build/ios/OS;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
-			};
-			name = Release;
-		};
-		5023A43D7E1D48499679610C /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/bruno.coelho/Developer/json11CMakeiOS/build/ios/OS;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
-			};
-			name = MinSizeRel;
-		};
-		56D6CE4AFEA74D399D4BFD68 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/bruno.coelho/Developer/json11CMakeiOS/build/ios/OS;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
-			};
-			name = Release;
-		};
-		74FF0BD29AFB4F248AB8D086 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = (armv7, armv7s, arm64, );
-				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = /Users/bruno.coelho/Developer/json11CMakeiOS/bin/ios/Release/OS;
-				EXECUTABLE_PREFIX = "";
-				EXECUTABLE_SUFFIX = "";
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/Users/bruno.coelho/Developer/json11CMakeiOS/deps/json11, );
-				INSTALL_PATH = "";
-				LIBRARY_SEARCH_PATHS = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_CPLUSPLUSFLAGS = " -fvisibility=hidden -fvisibility-inlines-hidden -fobjc-arc -std=c++11 -stdlib=libc++ -Wall '-std=c++11'  ";
-				OTHER_LDFLAGS = " -Wl,-headerpad_max_install_names  /Users/bruno.coelho/Developer/json11CMakeiOS/bin/ios/Release/OS/libjson11.a";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = json11_test;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/bruno.coelho/Developer/json11CMakeiOS/build/ios/OS/deps/json11;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
-			};
-			name = Release;
-		};
-		7CE02CFF62234249890D5714 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "armv7 armv7s arm64";
-				CODE_SIGNING_REQUIRED = NO;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk;
-				SYMROOT = /Users/bruno.coelho/Developer/json11CMakeiOS/build/ios/OS/build;
-			};
-			name = Release;
-		};
-		7F404C80AB8042C9AF52CF3A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "armv7 armv7s arm64";
-				CODE_SIGNING_REQUIRED = NO;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk;
-				SYMROOT = /Users/bruno.coelho/Developer/json11CMakeiOS/build/ios/OS/build;
-			};
-			name = Debug;
-		};
-		8761893B51E64DACAC99CC93 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "armv7 armv7s arm64";
-				CODE_SIGNING_REQUIRED = NO;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk;
-				SYMROOT = /Users/bruno.coelho/Developer/json11CMakeiOS/build/ios/OS/build;
-			};
-			name = MinSizeRel;
-		};
-		AF4CC4C34F014D6E83E149D3 /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/bruno.coelho/Developer/json11CMakeiOS/build/ios/OS;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
-			};
-			name = RelWithDebInfo;
-		};
-		B2DE08AEFE044FBB81B10C78 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/bruno.coelho/Developer/json11CMakeiOS/build/ios/OS;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
-			};
-			name = MinSizeRel;
-		};
-		B59ECD195AD2475C8B7D40E4 /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = (armv7, armv7s, arm64, );
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = install;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/bruno.coelho/Developer/json11CMakeiOS/build/ios/OS;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
-			};
-			name = RelWithDebInfo;
-		};
-		B96898C44D2442ABAF924133 /* MinSizeRel */ = {
+		8EC1A627F5EF4FDDAB0E4F45 /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = (armv7, armv7s, arm64, );
@@ -825,17 +567,29 @@ exit 0";
 			};
 			name = MinSizeRel;
 		};
-		BFC86A725E4342D5B7D821E0 /* RelWithDebInfo */ = {
+		B57D665AE6054D53A3AB1C92 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "armv7 armv7s arm64";
-				CODE_SIGNING_REQUIRED = NO;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk;
-				SYMROOT = /Users/bruno.coelho/Developer/json11CMakeiOS/build/ios/OS/build;
+				ARCHS = (armv7, armv7s, arm64, );
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/bruno.coelho/Developer/json11CMakeiOS/build/ios/OS;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
 			};
-			name = RelWithDebInfo;
+			name = Release;
 		};
-		C8E26E392C2842BF8058E8E1 /* Debug */ = {
+		B84A157DE5494D8E935E11D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -855,7 +609,49 @@ exit 0";
 			};
 			name = Debug;
 		};
-		CE8915A135D941D4A3172FF9 /* Debug */ = {
+		BB07D926911044D291D25867 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (armv7, armv7s, arm64, );
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/bruno.coelho/Developer/json11CMakeiOS/build/ios/OS;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		C1EB64A8A9024E13B6592C46 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/bruno.coelho/Developer/json11CMakeiOS/build/ios/OS;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = RelWithDebInfo;
+		};
+		C5FD2A16F156458F8439799E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -875,7 +671,27 @@ exit 0";
 			};
 			name = Debug;
 		};
-		EBF238D115034507A71D28DD /* Debug */ = {
+		CE545F89F9A74486BD3AB992 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/bruno.coelho/Developer/json11CMakeiOS/build/ios/OS;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		E393A16998D0461E96ECE494 /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = (armv7, armv7s, arm64, );
@@ -895,12 +711,11 @@ exit 0";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
 			};
-			name = Debug;
+			name = RelWithDebInfo;
 		};
-		F09304139B4C446B9AF163C6 /* MinSizeRel */ = {
+		EBD6B4A25D8445AAA9B7F2C5 /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (armv7, armv7s, arm64, );
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
@@ -908,25 +723,24 @@ exit 0";
 				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = " ";
 				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = install;
+				PRODUCT_NAME = ZERO_CHECK;
 				SECTORDER_FLAGS = "";
 				SYMROOT = /Users/bruno.coelho/Developer/json11CMakeiOS/build/ios/OS;
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
 			};
-			name = MinSizeRel;
+			name = RelWithDebInfo;
 		};
-		FF83758C38D44B41AE9B43D0 /* RelWithDebInfo */ = {
+		F64A45A47D9B4F9A88145F47 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = (armv7, armv7s, arm64, );
 				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = /Users/bruno.coelho/Developer/json11CMakeiOS/bin/ios/RelWithDebInfo;
-				EXECUTABLE_PREFIX = "";
-				EXECUTABLE_SUFFIX = "";
+				CONFIGURATION_BUILD_DIR = /Users/bruno.coelho/Developer/json11CMakeiOS/bin/ios/Debug/OS;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -934,89 +748,78 @@ exit 0";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (/Users/bruno.coelho/Developer/json11CMakeiOS/deps/json11, );
 				INSTALL_PATH = "";
-				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_STYLE = STATIC;
 				ONLY_ACTIVE_ARCH = NO;
-				OTHER_CPLUSPLUSFLAGS = " -fvisibility=hidden -fvisibility-inlines-hidden -fobjc-arc -std=c++11 -stdlib=libc++ -Wall '-std=c++11'  ";
-				OTHER_LDFLAGS = " -Wl,-headerpad_max_install_names  /Users/bruno.coelho/Developer/json11CMakeiOS/bin/ios/RelWithDebInfo/libjson11.a";
+				OTHER_CPLUSPLUSFLAGS = " -fvisibility=hidden -fvisibility-inlines-hidden -fobjc-arc -std=c++11 -stdlib=libc++ -Wall '-std=c++11' -fno-rtti -fno-exceptions -Wall -Wextra -Werror  ";
+				OTHER_LIBTOOLFLAGS = " ";
 				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = json11_test;
+				PRODUCT_NAME = json11;
 				SECTORDER_FLAGS = "";
 				SYMROOT = /Users/bruno.coelho/Developer/json11CMakeiOS/build/ios/OS/deps/json11;
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
 			};
-			name = RelWithDebInfo;
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		14AD2426A62C45939B423EBB /* Build configuration list for PBXProject "example_all" */ = {
+		0CB31504ACE94C3C88D0E460 /* Build configuration list for PBXProject "example_all" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7F404C80AB8042C9AF52CF3A /* Debug */,
-				7CE02CFF62234249890D5714 /* Release */,
-				8761893B51E64DACAC99CC93 /* MinSizeRel */,
-				BFC86A725E4342D5B7D821E0 /* RelWithDebInfo */,
+				488C42250A154F358ADEE936 /* Debug */,
+				4B7C1560642C46068853BFF4 /* Release */,
+				33DB73968DB1413ABBDD7637 /* MinSizeRel */,
+				3F2280B573CA46C589D7BF8A /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		1B7FD1B0A477438F85A2FE14 /* Build configuration list for PBXAggregateTarget "install" */ = {
+		A81E63B02DE54A46B0CB081D /* Build configuration list for PBXAggregateTarget "install" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EBF238D115034507A71D28DD /* Debug */,
-				254449E7AC1C4A488452B01C /* Release */,
-				F09304139B4C446B9AF163C6 /* MinSizeRel */,
-				B59ECD195AD2475C8B7D40E4 /* RelWithDebInfo */,
+				BB07D926911044D291D25867 /* Debug */,
+				B57D665AE6054D53A3AB1C92 /* Release */,
+				434C5A15DACE4B259ED5DD94 /* MinSizeRel */,
+				E393A16998D0461E96ECE494 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		370298D42C8A466190CA0CA3 /* Build configuration list for PBXNativeTarget "json11" */ = {
+		E32CF596ADAB48609A4D2907 /* Build configuration list for PBXNativeTarget "json11" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4288289D115440AE9CEA7546 /* Debug */,
-				1C4AA651BECA4CC1A3617AD8 /* Release */,
-				B96898C44D2442ABAF924133 /* MinSizeRel */,
-				432F9FC41B554B57BC0643F6 /* RelWithDebInfo */,
+				F64A45A47D9B4F9A88145F47 /* Debug */,
+				5EE1AA3BFA9A44AD8FAE8D48 /* Release */,
+				8EC1A627F5EF4FDDAB0E4F45 /* MinSizeRel */,
+				6AFCF34A75CC4461A54D4890 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		529D0F10F54447D0807287E4 /* Build configuration list for PBXNativeTarget "json11_test" */ = {
+		E983B8F8E501457FBCA0F18E /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2943A613DCBD481BA068D636 /* Debug */,
-				74FF0BD29AFB4F248AB8D086 /* Release */,
-				4D80B20BFAF0450D9EAC4482 /* MinSizeRel */,
-				FF83758C38D44B41AE9B43D0 /* RelWithDebInfo */,
+				C5FD2A16F156458F8439799E /* Debug */,
+				1512AF1254D544BE8E35D7E2 /* Release */,
+				23316C72A5C149E98B6461D0 /* MinSizeRel */,
+				C1EB64A8A9024E13B6592C46 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		59E72BB04B7F40D3B1B5A59C /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+		EE5F6767E21A4C25A79BD68A /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CE8915A135D941D4A3172FF9 /* Debug */,
-				56D6CE4AFEA74D399D4BFD68 /* Release */,
-				5023A43D7E1D48499679610C /* MinSizeRel */,
-				10FD9F8B8DF94DFBBBA69F7A /* RelWithDebInfo */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
-		};
-		9DCF17492B8C4C7895365F6C /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C8E26E392C2842BF8058E8E1 /* Debug */,
-				4FD789B493074F678739162A /* Release */,
-				B2DE08AEFE044FBB81B10C78 /* MinSizeRel */,
-				AF4CC4C34F014D6E83E149D3 /* RelWithDebInfo */,
+				B84A157DE5494D8E935E11D9 /* Debug */,
+				CE545F89F9A74486BD3AB992 /* Release */,
+				119C7C491604469F9B0F2848 /* MinSizeRel */,
+				EBD6B4A25D8445AAA9B7F2C5 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 6B97892AF61C4B4E8A6F8984 /* Project object */;
+	rootObject = BD4DF840227E413597153EFD /* Project object */;
 }
