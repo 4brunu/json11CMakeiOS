@@ -1,5 +1,7 @@
 # json11CMakeiOS
 
+### Fixed with this commit https://github.com/4brunu/json11CMakeiOS/commit/972f00b646057a513d14a90b874f9f398fcff873
+
 ### This is a sample project to the following SO question http://stackoverflow.com/questions/37880180/error-creating-ios-static-library-using-cmake
 
 I'm trying to create a static library of the project [json11](https://github.com/dropbox/json11) with CMake, to use in a iOS project.
