@@ -24,6 +24,9 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fobjc-arc -std=c++11 -stdlib=libc++ -Wa
 set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS}  -fobjc-arc -Wall")
 set(CMAKE_XCODE_ATTRIBUTE_CODE_SIGNING_REQUIRED "NO")
 
+set(JSON11_BUILD_TESTS OFF CACHE BOOL "Build the unit tests")
+
+
 
 # Add projects.
 # Change here the sub directory
